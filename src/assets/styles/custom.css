@@ -1,0 +1,196 @@
+
+div.select__control{
+  border-radius: 50px;
+
+}
+div.select__option--is-selected{
+  background-color: red;
+}
+
+
+.prefered-section{
+  display:flex;
+  justify-content:center;
+  box-shadow: 2px 10px 2px red;
+}
+
+.prefered-section img{
+  width:100px
+}
+
+.prefered-section img:hover{
+  background-color: teal;
+}
+.container-heart{
+  display: flex;
+ flex-direction: row;
+ margin-top:10px;
+ padding: 50px;
+
+}
+
+.container-heart li {
+  list-style: none ;
+  margin-top:10px
+  
+}
+
+.heart-section{
+  box-shadow: 10px 20px 10px #ccc;
+  
+
+}
+
+.item-list{
+  margin-left: 60px;
+}
+
+.delete-item i{
+  color: red;
+  font-size: 20px;
+  transition: all 1.2s;
+}
+.delete-item i:hover{
+transform: rotate(360deg);
+}
+
+.container-heart li:nth-child(2){
+  color:red;
+  font-size: 30px;
+}
+.container-heart li:nth-child(3){
+  color:darkcyan;
+  font-size: 15px;
+}
+
+.container-heart li:nth-child(6){
+  color:red;
+  font-size: 28px;
+}
+
+.heart-img:hover{
+  object-fit: cover !important;
+}
+
+
+
+.container-compare{
+  margin-top: 50px;
+
+  box-shadow: 10px 0px 10px black;
+  padding: 10px;
+  
+}
+
+
+
+.compare{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.compare li{
+  list-style: none;
+}
+
+.compare img{
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  margin-bottom: 30px;
+}
+
+.items{
+  padding: 10px;
+  text-align: center;
+}
+
+
+.container-compare:nth-child(3){
+  background-color: thistle ;
+  order:1
+}
+
+
+.container-compare:nth-child(1){
+  background-color: burlywood;
+}
+.container-compare:nth-child(5){
+  background-color: teal;
+}
+
+.container-compare:nth-child(4){
+  background-color: aqua !important ;
+}
+.container-compare:nth-child(2){
+  background-color:aquamarine  ;
+}
+.container-compare:nth-child(6){
+  background-color:coral  ;
+}
+.container-compare:nth-child(7){
+  background-color:blueviolet ;
+}
+.vs{
+  display: flex;
+  align-items: center;
+  margin:50px;
+  font-size: 50px;
+  font-style: italic;
+  border-bottom: 3px dashed teal;
+}
+
+.remove-item{
+  text-align: center;
+  font-size: 35px;
+  color:red;
+  transition: all 1s;
+}
+
+.remove-item:hover{
+  transform: rotate(360deg);
+}
+
+
+.compare-page{
+  text-align: center;
+  box-shadow: 0px 10px 100px #ccc;
+}
+
+
+.items li:nth-child(1){
+font-weight: 900;
+  
+}
+
+.items li:nth-child(2){
+  color: red;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.items li:nth-child(3){
+
+  color:brown;
+}
+.items li:nth-child(4){
+ 
+  color: gold;
+}
+.items li {
+  font-size: 20px;
+}
+
+.items li:nth-child(6){
+  
+  color: red;
+}
+
+.compare .vs:nth-child(1){
+  display: none;
+}
+
+.compare> .vs:nth-child(2){
+  display: none !important;
+}
